@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #066;
+
+}
+
+header {
+    text-align: center;
+    background-color: #044;
+    color: black;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.book-list,
+.add-book,
+.search-books {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input {
+    margin: 5px 0;
+}
+
+button {
+    background-color: #000fff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#search {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}

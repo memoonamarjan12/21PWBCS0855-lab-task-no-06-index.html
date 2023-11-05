@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Library Management System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Online Library Management System</h1>
+    </header>
+    <main>
+        <div class="book-list">
+            <h2>Book List</h2>
+            <ul id="book-list-ul">
+                <li>1.Application and Theory of Petri Nets and Concurrency by Susanna Donatelli Stefan Haar</li>
+                <li> Structure and Interpretation of Computer Programs by Martin Hentz</li>
+                <li> The Pragmatic Programmer by Andrew Hunt</li>
+               <li> The Algorithmic Leader by mikewalsh</li>
+             <li>The C++ programming language by BjarneStroustrup </li>
+            </ul>
+          </div></ul>
+        </div>
+        <div class="add-book">
+            <h2>Add New Book</h2>
+            <form id="add-book-form">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author" required>
+                <label for="isbn">ISBN:</label>
+                <input type="text" id="isbn" name="isbn" required>
+                <button type="submit">Add Book</button>
+            </form>
+        </div>
+        <div class="search-books">
+            <h2>Search for Books</h2>
+            <input type="text" id="search" placeholder="Search books...">
+            <ul id="search-results-ul"></ul>
+            <button type="submit">Search</button>
+            </form>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
